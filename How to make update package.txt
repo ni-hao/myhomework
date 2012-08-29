@@ -1,0 +1,8 @@
+This instruction intruduce the steps to make a new update package:
+
+First: Change the WordPress Adress and Site Address to "http://127.0.0.1:10101";
+Second: Backup database;
+Third: Copy the lastest files of website and php to the package;
+Fourth: Compress the folder to a compressed file.
+
+That's All.

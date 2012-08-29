@@ -1,0 +1,8 @@
+First: select the page which do not have title information:
+select post.* from wp_posts post where post.id not in (select p.id from wp_posts p join wp_postmeta meta on p.id = meta.post_id
+where meta_key = '_aioseop_title') and post.post_type = 'page'
+
+Second: Create a new database :
+create database wordpress_db;
+grant all privileges on wordpress_db.* to root@localhost identified by '1qaz@WSX';
+flush privileges;
