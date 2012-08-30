@@ -34,18 +34,18 @@
 <?php include("global.php"); ?>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
-<link type="text/css" rel="stylesheet" href="/wp-content/themes/bolt/template/ContentInfo.css">
-<link type="text/css" rel="stylesheet" href="/wp-content/themes/bolt/template/BOLTwebsite.css">
+<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/template/ContentInfo.css">
+<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/template/BOLTwebsite.css">
 <link href="<?php echo get_template_directory_uri(); ?>/template/style.css" type="text/css" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/template/extraStyle.css" type="text/css" rel="stylesheet">
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.7.2.min.js" type="text/javascript"></script>
-<script src="/wp-content/themes/bolt/template/BOLT.js" type="text/javascript"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/template/BOLT.js" type="text/javascript"></script>
 </head>
 
 <body>
 <div id="wrapper">
 	
-	<div id="header"><a href="/"><img alt="BOLT Insurance Agency" src="/wp-content/themes/bolt/template/BOLTlogo.png" align="top" border="0" height="45" width="178"></a>
+	<div id="header"><a href="/"><img alt="BOLT Insurance Agency" src="<?php echo get_template_directory_uri(); ?>/template/BOLTlogo.png" align="top" border="0" height="45" width="178"></a>
     <div class="right">
       <ul>
         <li><a href="">Login</a></li>
@@ -146,7 +146,7 @@
         </ul>
       </li>
       <li><a href="/contact">Contact Us</a></li>
-      <li class="chat"><a href=""><img alt="Live Chat Online" src="/wp-content/themes/bolt/template/lg-chat-btn.jpg" border="0" height="26" width="144"></a></li>
+      <li class="chat"><a href=""><img alt="Live Chat Online" src="<?php echo get_template_directory_uri(); ?>/template/lg-chat-btn.jpg" border="0" height="26" width="144"></a></li>
     </ul>
   </div>
 

@@ -98,7 +98,7 @@ get_header(); ?>
                         <div class="content-height">
                             <ul>
                                 <li>
-                                    <img src="/wp-content/themes/bolt/images/pictures/insurance-talk-liability.jpg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pictures/insurance-talk-liability.jpg" alt="" />
                                     <div onClick="location.href='/insurance-glossary?openTerm=t8';" class="nodec">
                                         <h3 class="title" style="padding-right: 30px; padding-bottom: 5px"> Business Liability</h3>
                                         <p>
@@ -110,7 +110,7 @@ get_header(); ?>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="/wp-content/themes/bolt/images/pictures/insurance-talk-coverage.jpg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pictures/insurance-talk-coverage.jpg" alt="" />
                                     <div onClick="location.href='/insurance-glossary?openTerm=t29';" class="nodec">
                                         <h3 class="title">
                                             Property Deductible</h3>
@@ -123,7 +123,7 @@ get_header(); ?>
                                     </div>
                                 </li>
                                 <li class="last">
-                                    <img src="/wp-content/themes/bolt/images/pictures/insurance-talk-quote.jpg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pictures/insurance-talk-quote.jpg" alt="" />
                                     <div onClick="location.href='/insurance-glossary?openTerm=t37';" class="nodec">
                                         <h3 class="title">
                                             Workers' Comp.</h3>
