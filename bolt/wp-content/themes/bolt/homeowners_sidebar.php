@@ -50,7 +50,7 @@
           <li>Follow Us: </li>
           <li><a href="http://www.facebook.com/BOLTInsurance"><img alt="facebook" src="<?php echo get_template_directory_uri(); ?>/template/facebook-icon.jpg" border="0" height="30" width="29"></a></li>
           <li><a href="http://twitter.com/boltinsurance"><img alt="twitter" src="<?php echo get_template_directory_uri(); ?>/template/twitter-icon.jpg" border="0" height="30" width="29"></a></li>
-          <li><a href="http://www.linkedin.com/company/bolt-insurance-agency"><img alt="linkin" src="<?php echo get_template_directory_uri(); ?>/template/linked-icon.jpg" border="0" height="30" width="29"></a></li>
+          <li><a href="http://www.linkedin.com/company/bolt-insurance-agency"><img alt="linkedin" src="<?php echo get_template_directory_uri(); ?>/template/linked-icon.jpg" border="0" height="30" width="29"></a></li>
         </ul>
       </div>
     </div>

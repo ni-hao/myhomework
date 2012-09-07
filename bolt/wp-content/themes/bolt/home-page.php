@@ -18,7 +18,7 @@ get_header(); ?>
         <select id="typefield" name="insurancetype">
           <option value="Business Insurance">Business Insurance</option>
           <option value="Auto Insurance">Auto Insurance</option>
-          <option value="Homeowner Insurance">Homeowner Insurance</option>
+          <option value="Homeowner Insurance">Homeowners Insurance</option>
         </select>
         <input name="submitquote" value="" type="submit">
       </form>
@@ -76,27 +76,25 @@ get_header(); ?>
 	  
       <?php 
 				
-						$catIDArr = array(getBusiArticles(), getAutoArticles(), getHomeArticles());
-						foreach($catIDArr as $catID):
-						$articlesNum = 0;
-						$posts = get_posts( "category=". $catID ."&numberposts=20" ); ?>
+		$catIDArr = array(getBusiArticles(), getAutoArticles(), getHomeArticles());
+		$articlesNum = 0;
+		$posts = get_posts( "category=". implode(',', $catIDArr) ."&numberposts=20" ); ?>
 <?php if( $posts ) : ?>
       <ul>
 	  
-<?php foreach( $posts as $post ) : setup_postdata( $post ); 
-	if($articlesNum >5){
-		break;
-	}
-	$articlesNum +=1;
-?>
-
-        <li> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+	<?php foreach( $posts as $post ) : setup_postdata( $post ); 
+		if($articlesNum >5){
+			break;
+		}
+		$articlesNum +=1;
+	?>
+		<li> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
  <?php endforeach; ?>   
       </ul>
 	  			
-<?php endif; 
-			endforeach;?>
-      <a class="morecontent" href="/articles">Insurance Articles &gt;</a> </div>
+<?php endif;?>
+      <a class="morecontent" href="/articles">Insurance Articles &gt;</a> 
+	  </div>
     <div id="newsarea">
       <div class="infographic"> <a style="float:left; margin-right:10px;" href=""><img alt="So you want to start a business" src="<?php echo get_template_directory_uri(); ?>/template/infographic.jpg" align="top" border="0" height="96" width="80"></a>
         <div style="float: left; width: 270px;">
@@ -124,10 +122,10 @@ get_header(); ?>
         <li><?php the_date("m/d/Y");?><br>
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
  <?php endforeach; ?>   
-      </ul>
-	  			
+      </ul>	  			
 <?php endif; ?>
-        <a class="morecontent" href="/about/news">More News &gt;</a> </div>
+        <a class="morecontent" href="/about/news">More News &gt;</a> 
+		</div>
     </div>
   </div>
   <div class="homepage" id="rightcol">
@@ -165,7 +163,7 @@ get_header(); ?>
       </ul>
       <p class="viewall blue"><a href="/about/testimonials">View All</a> &gt;</p>
     </div>
-    <div class="box hpawards">
+    <div class="box hpawards" style="display:none;">
       <h3>Awards</h3>
     </div>
     <div id="follow">
@@ -173,7 +171,7 @@ get_header(); ?>
         <li>Follow Us: </li>
         <li><a href="http://www.facebook.com/BOLTInsurance"><img alt="facebook" src="<?php echo get_template_directory_uri(); ?>/template/facebook-icon.jpg" border="0" height="30" width="29"></a></li>
         <li><a href="http://twitter.com/boltinsurance"><img alt="twitter" src="<?php echo get_template_directory_uri(); ?>/template/twitter-icon.jpg" border="0" height="30" width="29"></a></li>
-        <li><a href="http://www.linkedin.com/company/bolt-insurance-agency"><img alt="linkin" src="<?php echo get_template_directory_uri(); ?>/template/linked-icon.jpg" border="0" height="30" width="29"></a></li>
+        <li><a href="http://www.linkedin.com/company/bolt-insurance-agency"><img alt="linkedin" src="<?php echo get_template_directory_uri(); ?>/template/linked-icon.jpg" border="0" height="30" width="29"></a></li>
       </ul>
     </div>
   </div>

@@ -1,14 +1,372 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://127.0.0.1:10101/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.4.1" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.8" -->
-<!-- generated-on="August 29, 2012 1:10 am" -->
-<!-- Debug: Total comment count: 1 -->
+<!-- generated-on="September 7, 2012 4:22 am" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://127.0.0.1:10101/</loc>
 		<lastmod>2012-08-16T09:32:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
-<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/mobile-home-insurance/</loc>
+		<lastmod>2012-09-07T01:33:29+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/renters-insurance/</loc>
+		<lastmod>2012-09-07T01:25:20+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/condo-insurance/</loc>
+		<lastmod>2012-09-07T01:23:38+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/homeowners-insurance/</loc>
+		<lastmod>2012-09-07T01:21:12+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/auto-insurance/solutions/atv-insurance/</loc>
+		<lastmod>2012-09-07T01:18:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/auto-insurance/solutions/rv-insurance/</loc>
+		<lastmod>2012-09-07T01:12:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/auto-insurance/solutions/motorcycle-insurance/</loc>
+		<lastmod>2012-09-07T01:11:09+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/auto-insurance/solutions/auto-insurance/</loc>
+		<lastmod>2012-09-07T01:07:09+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/about/bolt-insurance-agency/</loc>
+		<lastmod>2012-09-07T00:54:51+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/sitemap/</loc>
+		<lastmod>2012-09-07T00:45:40+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/business-insurance/local/</loc>
+		<lastmod>2012-09-05T09:14:33+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/nebraska-business-insurance/</loc>
+		<lastmod>2012-08-29T08:36:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/montana-business-insurance/</loc>
+		<lastmod>2012-08-29T08:35:20+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/massachusetts-business-insurance/</loc>
+		<lastmod>2012-08-29T08:34:10+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/maryland-business-insurance/</loc>
+		<lastmod>2012-08-29T08:32:39+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/maine-business-insurance/</loc>
+		<lastmod>2012-08-29T08:31:58+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/indiana-business-insurance/</loc>
+		<lastmod>2012-08-29T08:30:53+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/hawaii-business-insurance/</loc>
+		<lastmod>2012-08-29T08:30:06+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/arizona-business-insurance/</loc>
+		<lastmod>2012-08-29T08:27:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/alaska-business-insurance/</loc>
+		<lastmod>2012-08-29T08:26:38+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/alabama-business-insurance/</loc>
+		<lastmod>2012-08-29T08:25:42+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/washington-business-insurance/</loc>
+		<lastmod>2012-08-29T08:22:04+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/wyoming-business-insurance/</loc>
+		<lastmod>2012-08-29T08:20:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/wisconsin-business-insurance/</loc>
+		<lastmod>2012-08-29T08:19:15+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/west-virigina-business-insurance/</loc>
+		<lastmod>2012-08-29T08:17:59+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/virigina-business-insurance/</loc>
+		<lastmod>2012-08-29T08:16:06+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/vermont-business-insurance/</loc>
+		<lastmod>2012-08-29T08:14:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/utah-business-insurance/</loc>
+		<lastmod>2012-08-29T08:13:21+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/texas-business-insurance/</loc>
+		<lastmod>2012-08-29T08:11:38+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/tennessee-business-insurance/</loc>
+		<lastmod>2012-08-29T08:09:59+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/south-dakota-business-insurance/</loc>
+		<lastmod>2012-08-29T08:08:44+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/south-carolina-business-insurance/</loc>
+		<lastmod>2012-08-29T08:07:27+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/rhode-island-business-insurance/</loc>
+		<lastmod>2012-08-29T08:06:01+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/pennsylvania-business-insurance/</loc>
+		<lastmod>2012-08-29T08:04:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/oregon-business-insurance/</loc>
+		<lastmod>2012-08-29T08:03:23+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/oklahoma-business-insurance/</loc>
+		<lastmod>2012-08-29T08:01:56+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/north-dakota-business-insurance/</loc>
+		<lastmod>2012-08-29T08:00:30+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/north-carolina-business-insurance/</loc>
+		<lastmod>2012-08-29T07:57:26+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/new-york-business-insurance/</loc>
+		<lastmod>2012-08-29T07:56:04+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/new-mexico-business-insurance/</loc>
+		<lastmod>2012-08-29T07:54:35+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/new-jersey-business-insurance/</loc>
+		<lastmod>2012-08-29T07:52:49+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/new-hampshire-business-insurance/</loc>
+		<lastmod>2012-08-29T07:51:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/nevada-business-insurance/</loc>
+		<lastmod>2012-08-29T07:49:35+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/missouri-business-insurance/</loc>
+		<lastmod>2012-08-29T07:44:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/mississippi-business-insurance/</loc>
+		<lastmod>2012-08-29T07:41:56+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/minnesota-business-insurance/</loc>
+		<lastmod>2012-08-29T07:40:03+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/michigan-business-insurance/</loc>
+		<lastmod>2012-08-29T07:38:21+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/louisiana-business-insurance/</loc>
+		<lastmod>2012-08-29T07:31:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/kentucky-business-insurance/</loc>
+		<lastmod>2012-08-29T07:30:28+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/kansas-business-insurance/</loc>
+		<lastmod>2012-08-29T07:28:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/iowa-business-insurance/</loc>
+		<lastmod>2012-08-29T07:26:57+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/illinois-business-insurance/</loc>
+		<lastmod>2012-08-29T07:23:37+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/idaho-business-insurance/</loc>
+		<lastmod>2012-08-29T07:21:47+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/georgia-business-insurance/</loc>
+		<lastmod>2012-08-29T07:18:07+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/florida-business-insurance/</loc>
+		<lastmod>2012-08-29T07:16:03+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/delaware-business-insurance/</loc>
+		<lastmod>2012-08-29T07:14:17+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/connecticut-business-insurance/</loc>
+		<lastmod>2012-08-29T07:12:10+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/colorado-business-insurance/</loc>
+		<lastmod>2012-08-29T07:10:09+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/california-business-insurance/</loc>
+		<lastmod>2012-08-29T07:08:02+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://127.0.0.1:10101/arkansas-business-insurance/</loc>
+		<lastmod>2012-08-29T07:06:12+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
 	<url>
 		<loc>http://127.0.0.1:10101/about/insurance-providers/</loc>
 		<lastmod>2012-08-28T07:26:31+00:00</lastmod>
@@ -34,44 +392,8 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://127.0.0.1:10101/about/bolt-insurance-agency/</loc>
-		<lastmod>2012-08-28T07:11:13+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/sitemap/</loc>
-		<lastmod>2012-08-28T02:16:29+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>http://127.0.0.1:10101/about/advantages/</loc>
 		<lastmod>2012-08-28T02:14:45+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/auto-insurance/solutions/atv-insurance/</loc>
-		<lastmod>2012-08-27T08:41:03+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/auto-insurance/solutions/auto-insurance/</loc>
-		<lastmod>2012-08-27T08:39:58+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/auto-insurance/solutions/rv-insurance/</loc>
-		<lastmod>2012-08-27T08:37:55+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/auto-insurance/solutions/motorcycle-insurance/</loc>
-		<lastmod>2012-08-27T08:35:04+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -124,39 +446,29 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://127.0.0.1:10101/new-mexico-business-insurance/</loc>
-		<lastmod>2012-08-27T07:22:47+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>http://127.0.0.1:10101/insurance-faq/</loc>
 		<lastmod>2012-08-27T07:20:15+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-<!-- Debug: Priority report of postID 574: Comments: 0 of 1 = 0 points -->
 	<url>
 		<loc>http://127.0.0.1:10101/auto-insurance/articles/auto-article/</loc>
 		<lastmod>2012-08-27T07:14:43+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 576: Comments: 0 of 1 = 0 points -->
 	<url>
 		<loc>http://127.0.0.1:10101/homeowners-insurance/articles/homeowners-article/</loc>
 		<lastmod>2012-08-27T07:14:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 598: Comments: 0 of 1 = 0 points -->
 	<url>
 		<loc>http://127.0.0.1:10101/business-insurance/articles/second-business-articles/</loc>
 		<lastmod>2012-08-27T07:14:25+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 572: Comments: 0 of 1 = 0 points -->
 	<url>
 		<loc>http://127.0.0.1:10101/business-insurance/articles/business-article/</loc>
 		<lastmod>2012-08-27T07:12:34+00:00</lastmod>
@@ -166,48 +478,6 @@
 	<url>
 		<loc>http://127.0.0.1:10101/insurance-glossary/</loc>
 		<lastmod>2012-08-27T06:06:07+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/west-virigina-business-insurance/</loc>
-		<lastmod>2012-08-27T04:19:30+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/virigina-business-insurance/</loc>
-		<lastmod>2012-08-27T04:18:53+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/business-insurance/local/</loc>
-		<lastmod>2012-08-27T04:02:50+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/alabama-business-insurance/</loc>
-		<lastmod>2012-08-27T04:01:44+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/washington-business-insurance/</loc>
-		<lastmod>2012-08-27T02:57:42+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/new-jersey-business-insurance/</loc>
-		<lastmod>2012-08-27T02:54:52+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/north-carolina-business-insurance/</loc>
-		<lastmod>2012-08-27T02:19:14+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -284,284 +554,8 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://127.0.0.1:10101/wyoming-business-insurance/</loc>
-		<lastmod>2012-08-20T06:20:33+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/wisconsin-business-insurance/</loc>
-		<lastmod>2012-08-20T06:20:23+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/vermont-business-insurance/</loc>
-		<lastmod>2012-08-20T06:19:52+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/utah-business-insurance/</loc>
-		<lastmod>2012-08-20T06:19:40+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/texas-business-insurance/</loc>
-		<lastmod>2012-08-20T06:18:31+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/tennessee-business-insurance/</loc>
-		<lastmod>2012-08-20T06:18:24+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/south-dakota-business-insurance/</loc>
-		<lastmod>2012-08-20T06:18:11+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/south-carolina-business-insurance/</loc>
-		<lastmod>2012-08-20T06:17:58+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/rhode-island-business-insurance/</loc>
-		<lastmod>2012-08-20T06:14:23+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/pennsylvania-business-insurance/</loc>
-		<lastmod>2012-08-20T06:14:01+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/oregon-business-insurance/</loc>
-		<lastmod>2012-08-20T06:13:07+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/oklahoma-business-insurance/</loc>
-		<lastmod>2012-08-20T06:12:51+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>http://127.0.0.1:10101/ohio-business-insurance/</loc>
 		<lastmod>2012-08-20T06:12:21+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/north-dakota-business-insurance/</loc>
-		<lastmod>2012-08-20T06:11:15+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/new-york-business-insurance/</loc>
-		<lastmod>2012-08-20T06:10:20+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/new-hampshire-business-insurance/</loc>
-		<lastmod>2012-08-20T06:09:10+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/nevada-business-insurance/</loc>
-		<lastmod>2012-08-20T06:08:37+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/nebraska-business-insurance/</loc>
-		<lastmod>2012-08-20T06:08:27+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/montana-business-insurance/</loc>
-		<lastmod>2012-08-20T06:06:29+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/missouri-business-insurance/</loc>
-		<lastmod>2012-08-20T06:05:17+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/mississippi-business-insurance/</loc>
-		<lastmod>2012-08-20T06:05:03+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/minnesota-business-insurance/</loc>
-		<lastmod>2012-08-20T06:04:51+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/michigan-business-insurance/</loc>
-		<lastmod>2012-08-20T06:04:34+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/massachusetts-business-insurance/</loc>
-		<lastmod>2012-08-20T06:04:20+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/maryland-business-insurance/</loc>
-		<lastmod>2012-08-20T06:04:02+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/maine-business-insurance/</loc>
-		<lastmod>2012-08-20T06:03:35+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/louisiana-business-insurance/</loc>
-		<lastmod>2012-08-20T06:02:16+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/kentucky-business-insurance/</loc>
-		<lastmod>2012-08-20T06:01:44+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/kansas-business-insurance/</loc>
-		<lastmod>2012-08-20T06:01:17+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/iowa-business-insurance/</loc>
-		<lastmod>2012-08-20T06:00:41+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/indiana-business-insurance/</loc>
-		<lastmod>2012-08-20T05:58:52+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/illinois-business-insurance/</loc>
-		<lastmod>2012-08-20T05:58:15+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/idaho-business-insurance/</loc>
-		<lastmod>2012-08-20T05:57:51+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/hawaii-business-insurance/</loc>
-		<lastmod>2012-08-20T05:57:13+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/georgia-business-insurance/</loc>
-		<lastmod>2012-08-20T05:56:54+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/florida-business-insurance/</loc>
-		<lastmod>2012-08-20T05:56:09+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/delaware-business-insurance/</loc>
-		<lastmod>2012-08-20T05:55:30+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/connecticut-business-insurance/</loc>
-		<lastmod>2012-08-20T05:55:12+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/colorado-business-insurance/</loc>
-		<lastmod>2012-08-20T05:54:52+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/california-business-insurance/</loc>
-		<lastmod>2012-08-20T05:53:29+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/alaska-business-insurance/</loc>
-		<lastmod>2012-08-20T05:52:03+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/arkansas-business-insurance/</loc>
-		<lastmod>2012-08-20T05:51:15+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/arizona-business-insurance/</loc>
-		<lastmod>2012-08-20T05:50:58+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/renters-insurance/</loc>
-		<lastmod>2012-08-20T05:31:59+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/mobile-home-insurance/</loc>
-		<lastmod>2012-08-20T05:30:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/homeowners-insurance/</loc>
-		<lastmod>2012-08-20T05:29:56+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://127.0.0.1:10101/homeowners-insurance/solutions/condo-insurance/</loc>
-		<lastmod>2012-08-20T05:28:57+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -637,7 +631,6 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-<!-- Debug: Priority report of postID 580: Comments: 0 of 1 = 0 points -->
 	<url>
 		<loc>http://127.0.0.1:10101/news/first-news/</loc>
 		<lastmod>2012-08-17T07:16:31+00:00</lastmod>
@@ -686,16 +679,10 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-<!-- Debug: Priority report of postID 1: Comments: 1 of 1 = 1 points -->
 	<url>
 		<loc>http://127.0.0.1:10101/news/hello-world/</loc>
 		<lastmod>2012-08-09T06:23:15+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>1.0</priority>
 	</url>
-<!-- Debug: End Postings -->
-<!-- Debug: Start Custom Pages -->
-<!-- Debug: End Custom Pages -->
-<!-- Debug: Start additional URLs -->
-<!-- Debug: End additional URLs -->
 </urlset>

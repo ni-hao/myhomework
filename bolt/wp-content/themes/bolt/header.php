@@ -68,7 +68,7 @@
           <li><a href="">Auto / Home Insurance</a></li>
         </ul>
       </li>
-      <li class="menu"><a href="/business-insurance/solutions/">Insurance Solutions</a>
+      <li class="menu"><a>Insurance Solutions</a>
         <ul class="nav2 wide">
           <li><a href="/business-insurance/solutions/">Business Insurance</a>
             <ul class="nav3">
@@ -83,8 +83,8 @@
               <li><a href="/business-insurance/solutions/flood-protection">Flood Protection</a></li>
             </ul>
             <ul class="nav3 col2">
-              <li><a href="/business-insurance/solutions/general-liability">Liability & Property</a></li>
-              <li><a href="/business-insurance/solutions/umbrella-insurance">Umbrealla</a></li>
+              <li><a href="/business-insurance/solutions/general-liability">General Liability & Property</a></li>
+              <li><a href="/business-insurance/solutions/umbrella-insurance">Umbrella</a></li>
               <li><a href="/business-insurance/solutions/workers-compensation">Workers' Compensation</a></li>
               <li><a href="/business-insurance/solutions/small-business-insurance">Types of Small Business Insurance</a></li>
               <li><a href="/business-insurance/solutions/janitorial-cleaning-insurance">Janitorial Insurance</a></li>
@@ -114,7 +114,7 @@
             <ul class="nav3 col2">
               <li><a href="/homeowners-insurance/solutions/condo-insurance">Condo</a></li>
               <li><a href="/homeowners-insurance/solutions/renters-insurance">Renters</a></li>
-              <li><a href="/homeowners-insurance/solutions/mobile-home-insurance">Mobile home</a></li>
+              <li><a href="/homeowners-insurance/solutions/mobile-home-insurance">Mobile Home</a></li>
             </ul>
           </li>
         </ul>
@@ -127,8 +127,6 @@
           <li><a href="/articles">Articles</a>
             <ul class="nav3">
               <li><a href="/business-insurance/articles/">Business Insurance</a></li>
-              <li><a href="/auto-insurance/articles/">Auto Insurance</a></li>
-              <li><a href="/homeowners-insurance/articles/">Homeowners Insurance</a></li>
             </ul>
           </li>
         </ul>
@@ -136,7 +134,7 @@
       <li class="menu"><a href="/about">About BOLT</a>
         <ul class="nav2">
           <li><a href="/about/bolt-insurance-agency">Our Company</a></li>
-          <li><a href="/about/advantages">Why BOLT</a></li>
+          <li><a href="/about/advantages">Why BOLT?</a></li>
           <li><a href="/about/news">News</a></li>
           <li><a href="/about/careers">Careers</a></li>
           <li><a href="/about/service-center">Service Center</a></li>

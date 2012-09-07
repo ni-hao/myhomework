@@ -166,8 +166,8 @@ get_header(); ?>
                     <div class="middle">
                         <div class="content-height">
 						<?php 
-						$catID = getBusiArticles();
-						$posts = get_posts( "category=". $catID."&numberposts=3"); ?>
+						$catIDArr = array(getBusiArticles(), getAutoArticles(), getHomeArticles());
+						$posts = get_posts( "category=". implode(',', $catIDArr) ."&numberposts=3" );?>
 						<?php if( $posts ) : ?>
                             <ul><?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
                                 <li>
