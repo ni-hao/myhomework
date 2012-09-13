@@ -61,7 +61,7 @@ get_header(); ?>
                     <div class="middle" style = "width:571px;float:left; height:auto;">
                         <div class="content-height" >
 						<?php 
-						$posts = get_posts( "category=". $cat_ID); ?>
+						$posts = get_posts( "category=". $cat_ID."&numberposts=100"); ?>
 						<?php if( $posts ) : ?>
                         <ul>
 							<li>

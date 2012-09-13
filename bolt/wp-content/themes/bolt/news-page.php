@@ -29,10 +29,10 @@ get_header(); ?>
 	  <div class="content-inner">
 
 
-		<div class="content-box-a" style="min-height:  650px; *min-height:  720px;">
+		<div class="content-box-a">
 				<ul class="list02">
-					<li class="articles">
-						<div class="content">
+					<li class="articles" style="height:auto">
+						<div class="content" style="height:auto">
 							<div class="top">
 								<div class="left">
 								</div>
@@ -41,7 +41,7 @@ get_header(); ?>
 								<div class="right">
 								</div>
 							</div>
-							<div class="middle" style="min-height: 650px; *min-height:  720px;">
+							<div class="middle" style = "width:571px;float:left; height:auto;">
 								<div class="content-height">
 								
 						<?php 
@@ -49,7 +49,9 @@ get_header(); ?>
 						$posts = get_posts( "category=". $catID ."&numberposts=20" ); ?>
 		<?php if( $posts ) : ?>
 
-		<ul><?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
+		<ul>
+		
+		<?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
 			<li>
 				<div >
 					<span class="arrow"></span>
@@ -58,7 +60,7 @@ get_header(); ?>
 							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 						</h3>
 						<br />
-						<?php echo mb_strimwidth(strip_tags($post->post_content),0,200,'...');?>   
+						<?php echo mb_strimwidth(strip_tags($post->post_content),0,190,'...');?>   
 					</span>
 				</div>
 			</li>
