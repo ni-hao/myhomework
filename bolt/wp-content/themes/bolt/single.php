@@ -31,7 +31,7 @@ get_header(); ?>
 	}
 ?>
 
-		<div class="<?=$className ?>" id="subimagearea">
+		<div class="<?php echo $className ?>" id="subimagearea">
     <div id="subcontent">
       <div id="breadcrumbs"></div>
             <?php while ( have_posts() ) : the_post(); ?>

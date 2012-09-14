@@ -9,3 +9,34 @@
 {
 	padding-right:10px;
 }
+
+
+#page .pagination {
+clear:both;
+padding:0 0 30px 30px;
+position:relative;
+z-index:3;
+}
+
+#page .pagination span, #page .pagination a {
+display:block;
+float:left;
+font-size:13px;
+line-height:13px;
+margin: 2px 2px 2px 0;
+padding:6px 9px 5px 9px;
+text-decoration:none;
+width:auto;
+
+}
+
+#page .pagination a:hover{
+text-decoration:underline;
+}
+
+#page .pagination .current{
+font-size:13px;
+padding:6px 9px 5px 9px;
+font-weight: 700;
+background:none repeat scroll 0 0 #FFFFFF;
+}

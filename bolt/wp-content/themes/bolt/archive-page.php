@@ -9,6 +9,45 @@
  */
 get_header(); ?>
 <?php
+function kriesi_pagination($pages = '', $range = 2)
+{  
+     $showitems = ($range * 2)+1;  
+
+     global $paged;
+     if(empty($paged)) $paged = 1;
+
+     if($pages == '')
+     {
+         global $wp_query;
+         $pages = $wp_query->max_num_pages;
+         if(!$pages)
+         {
+             $pages = 1;
+         }
+     }   
+
+     if(1 != $pages)
+     {
+         echo "<div class='pagination'>";
+         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>&laquo;</a>";
+         if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>&lsaquo;  Prev</a>";
+
+         for ($i=1; $i <= $pages; $i++)
+         {
+             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
+             {
+                 echo ($paged == $i)? "<span class='current'>".$i."</span>":"<a href='".get_pagenum_link($i)."' class='inactive' >".$i."</a>";
+             }
+         }
+
+         if ($paged < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($paged + 1)."'>Next  &rsaquo;</a>";  
+         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>&raquo;</a>";
+         echo "</div>\n";
+     }
+}
+?>
+
+<?php
 	$curUrl =  get_page_link();
 	$isBusiness = strpos($curUrl, "business-insurance");
 	$isAuto = strpos($curUrl, "auto-insurance");
@@ -38,12 +77,11 @@ get_header(); ?>
 	}
 ?>
 
-		<div class="<?=$className ?>" id="subimagearea">
+		<div class="<?php echo $className ?>" id="subimagearea">
     <div id="subcontent">
       <div id="breadcrumbs"></div>
-            <?php while ( have_posts() ) : the_post(); ?>
 
-				<h1 class="<?= $titleClass ?>"><?php the_title(); ?></h1>
+				<h1 class="<?php echo $titleClass ?>"><?php the_title(); ?></h1>
 				<?php include("social_media.php")?>
 				<div class="content-inner">
 					<div class="content-box-a ProductBodyFix content-inner">
@@ -59,21 +97,21 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="middle" style = "width:571px;float:left; height:auto;">
-                        <div class="content-height" >
+                        <div class="content-height" style="float:left; width:100%; height:auto;" >
 						<?php 
-						$posts = get_posts( "category=". $cat_ID."&numberposts=100"); ?>
-						<?php if( $posts ) : ?>
+						$wp_query = new WP_Query("cat=". $cat_ID. "&paged=".$paged."&posts_per_page=20");
+						?>
                         <ul>
 							<li>
                                 <div >
 									<span class="arrow2"></span><span class="text">
 									<h3 class="title">View our latest
-										<a href="<?=$linkSrc?>"> insurance articles</a>
+										<a href="<?php echo $linkSrc?>"> insurance articles</a>
 									</h3> </span>
                                 </div>
                              </li>
 
-							 <?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
+            <?php while ( have_posts() ) : the_post(); ?>
                             <li>
                                 <div >
                                         <span class="arrow2"></span><span class="text">
@@ -82,10 +120,13 @@ get_header(); ?>
                                             </h3> </span>
                                     </div>
                              </li>
-							<?php endforeach; ?>  
+			<?php endwhile; // end of the loop. ?>
                         </ul>
-						<?php endif; ?>
                         </div>
+						<div id="page" style="float:left;">
+						    <?php kriesi_pagination($wp_query->max_num_pages); 
+							?>
+						</div>
                     </div> 
                     <div class="bottom">
                         <div class="left">
@@ -100,7 +141,6 @@ get_header(); ?>
         </ul>
 					</div>
 				</div>
-			<?php endwhile; // end of the loop. ?>
       <!-- end of Content -->
      </div>
     <?php include($sidebarName)?>

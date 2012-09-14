@@ -25,7 +25,7 @@ get_header(); ?>
       '003852609525218172122:9iqvcn26ylq', customSearchOptions);
     customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
     customSearchControl.draw('cse');
-	customSearchControl.execute("<?= get_query_var("search")?>");
+	customSearchControl.execute("<?php echo get_query_var("search")?>");
   }, true);
 </script>
 	<?php endwhile; // end of the loop. ?>

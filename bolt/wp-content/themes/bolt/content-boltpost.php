@@ -37,7 +37,7 @@
 	}
 		?>
 		
-	<h1 class="<?=$titleClass?>"><?php the_title(); ?></h1>
+	<h1 class="<?php echo $titleClass?>"><?php the_title(); ?></h1>
 		<hr class="line" />
 		<?php include("social_media.php")?>
 		
